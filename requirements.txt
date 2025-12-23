@@ -1,0 +1,7 @@
+streamlit
+pandas
+xgboost
+shap
+streamlit-shap
+huggingface_hub
+python-dotenv
