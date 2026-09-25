@@ -44,7 +44,7 @@ def load_risk_model():
     model = xgb.XGBClassifier()
     # Technical fix for XGBoost 2.0+ sklearn wrapper
     model._estimator_type = 'classifier'
-    model.load_model("stress_model.json")
+    model.load_model("models/stress_model.json")
     return model
 
 model = load_risk_model()
